@@ -105,7 +105,6 @@ Create a `.env` file in the root directory:
 GROQ_API_KEY=your_groq_key_here
 ```
 
-(Do **not** upload your real API key to GitHub. Use `.env.example` to guide users.)
 
 ---
 
@@ -179,3 +178,4 @@ This project is licensed under the **MIT License**.
 For questions or collaboration:  
 **Email:** mkavinvelavan@outlook.com  
 **LinkedIn:** https://linkedin.com/in/m-kavinvelavan  
+
