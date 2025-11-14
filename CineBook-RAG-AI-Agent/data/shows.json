@@ -1,0 +1,15 @@
+{
+  "shows": [
+    { "show_id": "S001", "theater_id": "T001", "movie_id": "M001", "time": "10:00 AM" },
+    { "show_id": "S002", "theater_id": "T001", "movie_id": "M002", "time": "02:00 PM" },
+
+    { "show_id": "S003", "theater_id": "T002", "movie_id": "M003", "time": "11:30 AM" },
+    { "show_id": "S004", "theater_id": "T002", "movie_id": "M001", "time": "06:00 PM" },
+
+    { "show_id": "S005", "theater_id": "T003", "movie_id": "M004", "time": "01:00 PM" },
+
+    { "show_id": "S006", "theater_id": "T004", "movie_id": "M004", "time": "09:15 PM" },
+
+    { "show_id": "S007", "theater_id": "T005", "movie_id": "M005", "time": "07:00 PM" }
+  ]
+}

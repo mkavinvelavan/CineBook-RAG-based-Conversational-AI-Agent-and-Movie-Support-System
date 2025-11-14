@@ -1,0 +1,9 @@
+{
+  "theaters": [
+    { "theater_id": "T001", "name": "CineWorld Downtown", "location": "Anna Nagar, Chennai" },
+    { "theater_id": "T002", "name": "StarMax Cinemas", "location": "Velachery, Chennai" },
+    { "theater_id": "T003", "name": "Galaxy Cinemas", "location": "Express Avenue, Chennai" },
+    { "theater_id": "T004", "name": "SilverLine Theaters", "location": "Royapettah, Chennai" },
+    { "theater_id": "T005", "name": "Regal Movie Hub", "location": "Porur, Chennai" }
+  ]
+}

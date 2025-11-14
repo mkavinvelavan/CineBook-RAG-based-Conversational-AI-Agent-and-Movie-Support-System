@@ -1,0 +1,39 @@
+{
+  "company_name": "CineBook",
+  "policy_type": "Customer Service",
+  "version": "1.0",
+  "policies": [
+    {
+      "policy_id": "CS_001_AVAILABILITY",
+      "policy_title": "Service Channel Availability",
+      "category": "Customer Contact",
+      "details": {
+        "ai_availability": "24/7 Live Chat",
+        "human_availability": "7 Days a Week, 9 AM - 8 PM (Local Time)",
+        "escalation_protocol": "AI will securely transfer non-standard queries to a human agent during available hours."
+      },
+      "agent_response_template": "Our AI support is available 24/7. Human assistance is available daily from 9 AM to 8 PM."
+    },
+    {
+      "policy_id": "CS_002_COMMUNICATION_STANDARD",
+      "policy_title": "Communication Tone and Protocol",
+      "category": "Communication",
+      "details": {
+        "tone_standard": "Professional, respectful, and focused on resolution.",
+        "prohibited_behavior": "Abusive or threatening language towards agents (AI or human) will result in immediate session termination and potential account suspension.",
+        "identification": "All virtual assistants will clearly state their AI status at the start of the interaction."
+      },
+      "agent_response_template": "I am an AI assistant and am here to help. Please maintain a respectful tone as per our Communication Standard."
+    },
+    {
+      "policy_id": "CS_003_TECHNICAL_FAILURE",
+      "policy_title": "Technical Error Resolution",
+      "category": "Issue Resolution",
+      "details": {
+        "requirement_for_claim": "Customer must provide verifiable evidence (e.g., error code, timestamp, screenshot) of system failure that prevented service use.",
+        "remedy": "Full refund, service credit, or manual issuance of a valid ticket, determined case-by-case."
+      },
+      "agent_response_template": "If you experienced a technical failure, please provide the error code and a screenshot so we can verify the issue and process a suitable resolution."
+    }
+  ]
+}

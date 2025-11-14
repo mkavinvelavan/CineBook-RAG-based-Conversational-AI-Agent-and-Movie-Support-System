@@ -1,0 +1,54 @@
+{
+  "company_name": "CineBook",
+  "policy_type": "Refunds and Cancellation",
+  "version": "1.0",
+  "policies": [
+    {
+      "policy_id": "RF_001_CANCELLATION_WINDOW",
+      "policy_title": "Standard Cancellation Eligibility",
+      "category": "Customer Initiated",
+      "description": "Defines the standard time limit for a customer to cancel a ticket purchase.",
+      "details": {
+        "eligibility_cut_off": "2 hours prior to the scheduled event start time (as listed on the ticket)",
+        "action_required": "Cancellation must be initiated through the app's 'My Tickets' section or via direct support chat."
+      },
+      "agent_response_template": "You are eligible for a refund or exchange if the cancellation is submitted at least **2 hours** before the scheduled event start time."
+    },
+    {
+      "policy_id": "RF_002_FEES_AND_REFUND_TYPE",
+      "policy_title": "Processing Fees and Refund Method",
+      "category": "Transaction Handling",
+      "description": "Details what fees are applied and how the money is returned.",
+      "details": {
+        "service_fee_status": "Non-refundable (standard service fees are retained upon cancellation)",
+        "cancellation_fee": "A small administrative fee may apply upon refund initiation, deducted from the total refund amount.",
+        "refund_method": "Refunds are processed back to the original payment method.",
+        "processing_time": "5-10 business days after approval."
+      },
+      "agent_response_template": "Please note that the non-refundable service fee is retained. The remaining balance will be returned to your original payment method within **5-10 business days**."
+    },
+    {
+      "policy_id": "RF_003_NO_SHOW",
+      "policy_title": "No-Show Policy",
+      "category": "Customer Initiated",
+      "description": "Rules for customers who miss their scheduled event without prior cancellation.",
+      "details": {
+        "status": "Tickets forfeited.",
+        "refund_eligibility": "None."
+      },
+      "agent_response_template": "If you do not cancel your tickets prior to the event start time and do not attend, your tickets are considered forfeited, and you will not be eligible for a refund or credit."
+    },
+    {
+      "policy_id": "RF_004_COMPANY_CANCELLATION",
+      "policy_title": "Event Provider Cancellation/Change",
+      "category": "External/Provider Initiated",
+      "description": "Rules for when the event provider cancels or significantly changes the event.",
+      "details": {
+        "customer_action": "None required (automatic processing)",
+        "refund_type": "Full refund (including all service fees).",
+        "notification": "Customers will be notified by email or in-app message."
+      },
+      "agent_response_template": "If the event is cancelled or significantly postponed by the provider, you will automatically receive a **full refund**, including all service fees. No action is required from your side."
+    }
+  ]
+}

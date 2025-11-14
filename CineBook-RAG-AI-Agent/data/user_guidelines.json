@@ -1,0 +1,57 @@
+{
+  "company_name": "CineBook",
+  "policy_type": "User Guidelines",
+  "version": "1.0",
+  "policies": [
+    {
+      "guideline_id": "UG_001_BOOKING_ACCURACY",
+      "guideline_title": "Accuracy of Booking Information",
+      "category": "Booking & Purchase",
+      "description": "Users are responsible for verifying all booking details before finalizing a purchase.",
+      "details": {
+        "user_responsibility": "Check date, time, number of tickets, and seating (if applicable) before payment.",
+        "confirmation_status": "A booking is confirmed only upon receipt of a digital ticket/confirmation ID."
+      },
+      "agent_response_template": "Please **always double-check** the event date, time, and ticket quantity before submitting payment to avoid errors."
+    },
+    {
+      "guideline_id": "UG_002_ACCOUNT_SECURITY",
+      "guideline_title": "Account Holder Responsibility",
+      "category": "Account Usage",
+      "description": "Defines the user's obligations regarding their account credentials and actions.",
+      "details": {
+        "password_protocol": "Use a strong, unique password and do not share credentials.",
+        "unauthorized_use": "The account holder is liable for all activity conducted through their account.",
+        "reporting_stolen": "Report any suspicion of unauthorized access to Customer Service immediately."
+      },
+      "agent_response_template": "You are fully responsible for maintaining your account security. Report unauthorized activity immediately."
+    },
+    {
+      "guideline_id": "UG_003_ACCEPTABLE_USE",
+      "guideline_title": "Prohibited Activities",
+      "category": "Platform Interaction",
+      "description": "Lists behaviors that are forbidden on the platform.",
+      "details": {
+        "prohibitions": [
+          "Automated or mass-ticket purchasing (botting).",
+          "Attempting to reverse-engineer or exploit the application's code.",
+          "Bulk resale of tickets for profit beyond original purchase price.",
+          "Using abusive language in chat or support channels."
+        ],
+        "consequence": "Violation may lead to account suspension and permanent ban."
+      },
+      "agent_response_template": "Automated ticket purchasing or any exploitation of the app is strictly prohibited and will result in account suspension."
+    },
+    {
+      "guideline_id": "UG_004_DIGITAL_TICKET_USAGE",
+      "guideline_title": "Ticket Redemption Rules",
+      "category": "On-site Experience",
+      "description": "Instructions for how tickets must be used at the event location.",
+      "details": {
+        "format_requirement": "Digital tickets must be presented on a mobile device (screenshot may not be accepted).",
+        "redemption_window": "Tickets are only valid for the specified date and time and cannot be used for a different event."
+      },
+      "agent_response_template": "Please ensure your digital ticket is ready on your mobile device for scanning. It is only valid for the date and time listed on the confirmation."
+    }
+  ]
+}

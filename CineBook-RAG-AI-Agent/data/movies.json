@@ -1,0 +1,9 @@
+{
+  "movies": [
+    { "movie_id": "M001", "title": "Leo", "language": "Tamil", "genre": "Action" },
+    { "movie_id": "M002", "title": "Jailer", "language": "Tamil", "genre": "Action/Drama" },
+    { "movie_id": "M003", "title": "Vikram", "language": "Tamil", "genre": "Thriller" },
+    { "movie_id": "M004", "title": "Kalki 2898 AD", "language": "Telugu", "genre": "Sci-Fi" },
+    { "movie_id": "M005", "title": "Master", "language": "Tamil", "genre": "Action/Drama" }
+  ]
+}

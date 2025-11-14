@@ -1,0 +1,46 @@
+{
+  "company_name": "CineBook",
+  "policy_type": "Account and Privacy",
+  "version": "1.0",
+  "policies": [
+    {
+      "policy_id": "PR_001_DATA_USAGE",
+      "policy_title": "Customer Data Handling",
+      "category": "Privacy",
+      "description": "Explains how customer interaction and usage data is utilized.",
+      "details": {
+        "purpose": "Solely for service improvement, transaction fulfillment, and customer support.",
+        "sharing_status": "Data is never sold or shared with third parties for marketing purposes.",
+        "data_retention": "Transaction records are stored for 7 years for compliance purposes; support chat logs for 1 year."
+      },
+      "agent_response_template": "We use your data only to fulfill your orders and improve our service. Your data is never sold to third parties."
+    },
+    {
+      "policy_id": "PR_002_SENSITIVE_INFO",
+      "policy_title": "Handling of Sensitive Information",
+      "category": "Security",
+      "description": "Rules for handling high-risk private information.",
+      "details": {
+        "prohibited_collection": "Full credit card numbers, CVV codes, government ID numbers.",
+        "account_security": "Passwords are encrypted and not visible to any employee or AI agent.",
+        "support_verification": "Agents will only ask for Order IDs, email addresses, and the last 4 digits of a payment method for verification."
+      },
+      "agent_response_template": "For security, neither I nor a human agent will ever ask for your full credit card number or password. We only require your Order ID and email to verify your identity."
+    },
+    {
+      "policy_id": "PR_003_ACCOUNT_SUSPENSION",
+      "policy_title": "Account Termination or Suspension",
+      "category": "Account Security",
+      "description": "Conditions under which a customer account may be suspended.",
+      "details": {
+        "grounds_for_suspension": [
+          "Fraudulent activity (e.g., unauthorized chargebacks or bulk reselling)",
+          "Violation of Communication Standards (CS_002)",
+          "Illegal use of the platform"
+        ],
+        "reinstatement": "Suspensions are reviewed after 30 days upon customer appeal."
+      },
+      "agent_response_template": "Accounts are subject to immediate suspension for fraudulent activity or violation of our service standards."
+    }
+  ]
+}
